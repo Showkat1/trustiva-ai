@@ -1,0 +1,216 @@
+[
+  {
+    "id": "TC01",
+    "name": "Fake Bank OTP",
+    "category": "phishing",
+    "expected_risk": "CRITICAL",
+    "message": "Your HBL account will be blocked immediately. Verify your account at https://secure-hbl-login.example.com/verify and send your OTP to 03001234567. Pay PKR 5,000 verification fee within 30 minutes.",
+    "expected_signals": [
+      "credential_request",
+      "artificial_urgency",
+      "advance_payment",
+      "suspicious_url"
+    ]
+  },
+  {
+    "id": "TC02",
+    "name": "Fake Government Grant",
+    "category": "government_impersonation",
+    "expected_risk": "HIGH",
+    "message": "Government assistance program: You are eligible for PKR 250,000. Complete your verification today by sending your CNIC and paying a PKR 2,000 processing fee.",
+    "expected_signals": [
+      "government_impersonation",
+      "advance_payment"
+    ]
+  },
+  {
+    "id": "TC03",
+    "name": "Fake Job Registration",
+    "category": "job_scam",
+    "expected_risk": "HIGH",
+    "message": "Congratulations! You have been shortlisted for a work-from-home position with a salary of PKR 150,000. Pay PKR 3,000 registration fee today to secure your position.",
+    "expected_signals": [
+      "job_scam",
+      "advance_payment"
+    ]
+  },
+  {
+    "id": "TC04",
+    "name": "Investment Scam",
+    "category": "investment_scam",
+    "expected_risk": "HIGH",
+    "message": "Invest PKR 20,000 today and receive guaranteed profit of PKR 60,000 within 7 days. This opportunity expires tonight.",
+    "expected_signals": [
+      "investment_scam",
+      "advance_payment",
+      "artificial_urgency"
+    ]
+  },
+  {
+    "id": "TC05",
+    "name": "Fake Prize",
+    "category": "prize_scam",
+    "expected_risk": "HIGH",
+    "message": "Congratulations! You have won PKR 1,000,000 in our lottery. Pay PKR 10,000 tax processing fee to claim your prize immediately.",
+    "expected_signals": [
+      "prize_scam",
+      "advance_payment",
+      "artificial_urgency"
+    ]
+  },
+  {
+    "id": "TC06",
+    "name": "Shortened Suspicious URL",
+    "category": "phishing",
+    "expected_risk": "HIGH",
+    "message": "Your account requires verification. Please login now using https://bit.ly/account-verify.",
+    "expected_signals": [
+      "suspicious_url",
+      "credential_request"
+    ]
+  },
+  {
+    "id": "TC07",
+    "name": "Brand Impersonation",
+    "category": "impersonation",
+    "expected_risk": "HIGH",
+    "message": "HBL Security Alert: Confirm your banking details at https://hbl-secure-login.example.com/verify immediately.",
+    "expected_signals": [
+      "suspicious_url",
+      "artificial_urgency",
+      "impersonation"
+    ]
+  },
+  {
+    "id": "TC08",
+    "name": "Fake Login Page",
+    "category": "phishing",
+    "expected_risk": "HIGH",
+    "message": "Security verification required. Login here to prevent account suspension: https://secure-account.example.com/login?verify=password.",
+    "expected_signals": [
+      "suspicious_url",
+      "credential_request"
+    ]
+  },
+  {
+    "id": "TC09",
+    "name": "Urgent Payment Request",
+    "category": "social_engineering",
+    "expected_risk": "HIGH",
+    "message": "Send PKR 15,000 immediately to complete your account verification. If payment is not received within 20 minutes, your application will be cancelled.",
+    "expected_signals": [
+      "advance_payment",
+      "artificial_urgency"
+    ]
+  },
+  {
+    "id": "TC10",
+    "name": "Fake KYC Request",
+    "category": "phishing",
+    "expected_risk": "HIGH",
+    "message": "Your bank KYC has expired. Send your CNIC number, card PIN and OTP immediately to avoid account suspension.",
+    "expected_signals": [
+      "credential_request",
+      "artificial_urgency",
+      "phishing"
+    ]
+  },
+  {
+    "id": "TC11",
+    "name": "Social Engineering",
+    "category": "social_engineering",
+    "expected_risk": "MEDIUM",
+    "message": "I am from the security department. Your account has a problem. Tell me the verification code you just received so I can fix it.",
+    "expected_signals": [
+      "credential_request"
+    ]
+  },
+  {
+    "id": "TC12",
+    "name": "Suspicious WhatsApp Message",
+    "category": "scam",
+    "expected_risk": "HIGH",
+    "message": "Hello dear, you have been selected for a special financial benefit. Send your CNIC and pay PKR 1,500 registration charges to receive the money today.",
+    "expected_signals": [
+      "advance_payment",
+      "artificial_urgency"
+    ]
+  },
+  {
+    "id": "TC13",
+    "name": "Legitimate Bank Notification",
+    "category": "benign",
+    "expected_risk": "LOW",
+    "message": "Your HBL account statement for August is now available in your official mobile banking application. Please log in through the application to view it.",
+    "expected_signals": []
+  },
+  {
+    "id": "TC14",
+    "name": "Legitimate Government Communication",
+    "category": "benign",
+    "expected_risk": "LOW",
+    "message": "The government has announced that citizens can review program information through the official government website. No payment or credential sharing is required.",
+    "expected_signals": []
+  },
+  {
+    "id": "TC15",
+    "name": "Legitimate Job Advertisement",
+    "category": "benign",
+    "expected_risk": "LOW",
+    "message": "We are hiring software engineers. Please review the complete job description and apply through the company's official careers page. No registration fee is required.",
+    "expected_signals": []
+  },
+  {
+    "id": "TC16",
+    "name": "Ambiguous Message",
+    "category": "ambiguous",
+    "expected_risk": "LOW",
+    "message": "Please contact our support team regarding your account and verify the information associated with your request.",
+    "expected_signals": []
+  },
+  {
+    "id": "TC17",
+    "name": "Roman Urdu Scam",
+    "category": "scam",
+    "expected_risk": "HIGH",
+    "message": "Apka account foran block ho jayega. Abhi OTP send karein aur PKR 2000 verification fee jama karein. 20 minutes ke andar action karein.",
+    "expected_signals": [
+      "credential_request",
+      "advance_payment",
+      "artificial_urgency"
+    ]
+  },
+  {
+    "id": "TC18",
+    "name": "Urdu Scam",
+    "category": "scam",
+    "expected_risk": "HIGH",
+    "message": "آپ کا اکاؤنٹ فوری طور پر بند کر دیا جائے گا۔ تصدیق کے لیے اپنا OTP اور 2000 روپے فیس بھیجیں۔",
+    "expected_signals": [
+      "credential_request",
+      "advance_payment"
+    ]
+  },
+  {
+    "id": "TC19",
+    "name": "Multi-Signal Fraud",
+    "category": "phishing",
+    "expected_risk": "CRITICAL",
+    "message": "FINAL WARNING: Your bank account will be permanently suspended. Click https://bank-security.example.com/verify, enter your password and OTP, and pay PKR 7,500 verification charges immediately.",
+    "expected_signals": [
+      "credential_request",
+      "advance_payment",
+      "artificial_urgency",
+      "suspicious_url",
+      "phishing"
+    ]
+  },
+  {
+    "id": "TC20",
+    "name": "Benign Suspicious Keywords",
+    "category": "benign",
+    "expected_risk": "LOW",
+    "message": "For your security, never share your password, PIN or OTP with anyone. Our bank will never ask customers to provide these credentials by phone or message.",
+    "expected_signals": []
+  }
+]

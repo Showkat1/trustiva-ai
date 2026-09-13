@@ -1,0 +1,28 @@
+SOURCE: Trustiva Cybersecurity Knowledge Base
+
+TITLE: Phishing and Social Engineering Indicators
+
+Phishing attempts may impersonate banks, government organizations, companies or service providers.
+
+Common indicators include:
+
+- Requests for passwords
+- Requests for OTPs
+- Requests for PINs
+- Requests for account credentials
+- Urgent instructions
+- Threats that an account will be blocked
+- Requests to click unexpected links
+- Requests to make payments
+- Claims of prizes or financial rewards
+- Requests for identity information
+
+Social engineering attempts may create fear, urgency, excitement or authority pressure.
+
+A suspicious communication should not be trusted solely because it uses an organization name or official-looking language.
+
+Important claims should be independently verified through a trusted official channel.
+
+An unknown sender is not automatically fraudulent.
+
+Lack of previous reports does not prove that a sender is safe.

@@ -1,0 +1,26 @@
+SOURCE: Trustiva Cybersecurity Knowledge Base
+
+TITLE: Job and Investment Scam Indicators
+
+Potential job scams may include:
+
+- Unsolicited job offers
+- Unrealistically high salaries
+- Requests for registration fees
+- Requests for training fees before employment
+- Requests for identity documents
+- Requests for banking credentials
+- Requests for OTPs
+- Pressure to pay quickly
+
+Potential investment scams may include:
+
+- Guaranteed profits
+- Extremely high returns
+- Pressure to invest immediately
+- Requests for cryptocurrency or bank transfers
+- Requests for advance fees
+- Referral-based financial promises
+- Claims that losses are impossible
+
+Users should independently verify employers, investment companies, domains and payment requests before sending money or confidential information.
