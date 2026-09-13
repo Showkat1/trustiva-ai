@@ -4,8 +4,6 @@
 
 Trustiva AI is a Generative AI-powered digital trust and fraud intelligence platform. It investigates suspicious digital communication, correlates observable evidence, retrieves trusted cybersecurity guidance with RAG, produces an explainable risk assessment, and recommends practical protection or recovery actions.
 
-## Hackathon MVP
-
 Trustiva currently supports:
 
 - 📝 Suspicious message analysis
@@ -38,6 +36,9 @@ Risk Assessment
      ↓
 Protection / Recovery Guidance
 ```
+
+<img width="2667" height="1500" alt="Trustiva_Architecture" src="https://github.com/user-attachments/assets/8e41cfcb-11e6-4eaf-8e2a-12fc20287a78" />
+
 
 ## Local Setup
 
